@@ -1,5 +1,15 @@
 # seata-demo
 SpringCloudAlibaba、nacos、seata分布式事务整合案例
+
+创建数据库，名为seata_demo，然后导入课前资料提供的SQL文件：
+![image](https://user-images.githubusercontent.com/18672799/134890443-2f8a49ad-ddb7-4a8e-a9a9-8e90faeffdf9.png)
+![image](https://user-images.githubusercontent.com/18672799/134890464-bd614e99-1a13-41b6-ad55-2e1665a70414.png)
+
+
+测试下单功能，发出Post请求：
+curl --location --request POST 'http://localhost:8082/order?userId=user202103032042012&commodityCode=100202003032041&count=2&money=200'
+
+
 ## 1.下载
 
 首先我们要下载seata-server包，地址在[http](http://seata.io/zh-cn/blog/download.html)[://seata.io/zh-cn/blog/download](http://seata.io/zh-cn/blog/download.html)[.](http://seata.io/zh-cn/blog/download.html)[html](http://seata.io/zh-cn/blog/download.html) 
