@@ -1,5 +1,5 @@
 # seata-demo
-spring-cloud-alibaba seata分布式事务整合
+SpringCloudAlibaba、nacos、seata分布式事务整合案例
 ## 1.下载
 
 首先我们要下载seata-server包，地址在[http](http://seata.io/zh-cn/blog/download.html)[://seata.io/zh-cn/blog/download](http://seata.io/zh-cn/blog/download.html)[.](http://seata.io/zh-cn/blog/download.html)[html](http://seata.io/zh-cn/blog/download.html) 
