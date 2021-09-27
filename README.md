@@ -2,7 +2,13 @@
 SpringCloudAlibaba、nacos、seata分布式事务整合案例
 
 创建数据库，名为seata_demo，然后导入课前资料提供的SQL文件：
+
+
+
 ![image](https://user-images.githubusercontent.com/18672799/134890443-2f8a49ad-ddb7-4a8e-a9a9-8e90faeffdf9.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/18672799/134890464-bd614e99-1a13-41b6-ad55-2e1665a70414.png)
 
 
