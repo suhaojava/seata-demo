@@ -7,20 +7,20 @@ spring-cloud-alibaba seata分布式事务整合
 当然，课前资料也准备好了：
 
 
-![image-20210622202357640](./image-20210622202357640.png)
+![image-20210622202357640](./images/image-20210622202357640.png)
 
 
 ## 2.解压
 
 在非中文目录解压缩这个zip包，其目录结构如下：
 
-![image-20210622202515014](./image-20210622202515014.png)
+![image-20210622202515014](./images/image-20210622202515014.png)
 
 ## 3.修改配置
 
 修改conf目录下的registry.conf文件：
 
-![image-20210622202622874](./image-20210622202622874.png)
+![image-20210622202622874](./images/image-20210622202622874.png)
 
 内容如下：
 
@@ -66,7 +66,7 @@ config {
 
 格式如下：
 
-![image-20210622203609227](./image-20210622203609227.png)
+![image-20210622203609227](./images/image-20210622203609227.png)
 
 
 
@@ -121,7 +121,7 @@ metrics.exporterPrometheusPort=9898
 
 新建一个名为seata的数据库，运行课前资料提供的sql文件：
 
-![image-20210622204145159](./image-20210622204145159.png)
+![image-20210622204145159](./images/image-20210622204145159.png)
 
 这些表主要记录全局事务、分支事务、全局锁信息：
 
@@ -179,7 +179,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 进入bin目录，运行其中的seata-server.bat即可：
 
-![image-20210622205427318](./image-20210622205427318.png)
+![image-20210622205427318](./images/image-20210622205427318.png)
 
 启动成功后，seata-server应该已经注册到nacos注册中心了。
 
@@ -187,7 +187,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 打开浏览器，访问nacos地址：http://localhost:8848，然后进入服务列表页面，可以看到seata-tc-server的信息：
 
-![image-20210622205901450](./image-20210622205901450.png)
+![image-20210622205901450](./images/image-20210622205901450.png)
 
 
 
